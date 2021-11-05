@@ -28,3 +28,4 @@ struct SumAB {
 }
 var sumAB = SumAB()
 sumAB.startSum()
+
