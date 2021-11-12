@@ -7,7 +7,8 @@
 
 import Foundation
 
-func solution(_ board:[[Int]], _ moves:[Int]) -> Int {
+// 처음 작성한 코드
+func solution2_1(_ board:[[Int]], _ moves:[Int]) -> Int {
     let numOfCol = board.count
     var colNum = Array(repeating: 0, count: numOfCol)
     var pickedDolls = [Int]()
@@ -39,6 +40,5 @@ func solution(_ board:[[Int]], _ moves:[Int]) -> Int {
     }
     return deletedDolls
 }
-
 
 

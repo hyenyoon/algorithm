@@ -9,7 +9,7 @@ import Foundation
 
 
 // 처음 작성한 코드
-func solution1(_ arr:[Int], _ divisor:Int) -> [Int] {
+func solution1_1(_ arr:[Int], _ divisor:Int) -> [Int] {
     var result = [Int]()
     for dividend in arr {
         if dividend % divisor == 0 {
@@ -20,8 +20,8 @@ func solution1(_ arr:[Int], _ divisor:Int) -> [Int] {
 }
 
 
-// 답안 확인 후 개선한 코드
-func solution2(_ arr:[Int], _ divisor:Int) -> [Int] {
+// 다른 사람 풀이 확인 후 개선한 코드
+func solution1_2(_ arr:[Int], _ divisor:Int) -> [Int] {
     let result = arr.filter{ $0 % divisor == 0 }.sorted()
     return arr.isEmpty ? [-1] : result
 }
