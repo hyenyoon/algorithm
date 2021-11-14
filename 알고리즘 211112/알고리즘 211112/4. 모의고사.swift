@@ -8,10 +8,11 @@
 import Foundation
 
 // 처음 작성 코드
-func solution(_ answers:[Int]) -> [Int] {
+func solution4_1(_ answers:[Int]) -> [Int] {
     let a = [1,2,3,4,5]
     let b = [2,1,2,3,2,4,2,5]
     let c = [3,3,1,1,2,2,4,4,5,5]
+    
     var score = [(1,0), (2,0), (3,0)]
     var result = [Int]()
     
@@ -31,3 +32,23 @@ func solution(_ answers:[Int]) -> [Int] {
     
     return result
 }
+
+// 해결 코드 - 1등만 return
+func solution4_2(_ answers:[Int]) -> [Int] {
+    let patterns = [[1,2,3,4,5],[2,1,2,3,2,4,2,5],[3,3,1,1,2,2,4,4,5,5]]
+    var scores = [0,0,0]
+    var ranking = [Int]()
+    
+    for (AI, answer) in answers.enumerated() {
+        for (PI, pattern) in patterns.enumerated() {
+            if answer == pattern[AI % pattern.count] { scores[PI] += 1 }
+        }
+    }
+    
+    for (i, score) in scores.enumerated() {
+        if score == scores.max() { ranking.append(i+1) }
+    }
+    
+    return ranking
+}
+
