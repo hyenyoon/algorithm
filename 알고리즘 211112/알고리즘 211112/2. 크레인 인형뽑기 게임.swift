@@ -19,19 +19,15 @@ func solution2_1(_ board:[[Int]], _ moves:[Int]) -> Int {
             continue
         }
         if board[colNum[move-1]][move-1] == 0 {
-            var n = colNum[move-1]
-            while board[n][move-1] == 0 {
-                if colNum[n+1] != numOfCol {
-                    n += 1
-                } else {
-                    colNum[move-1] = n+1
+            while board[colNum[move-1]][move-1] == 0 {
+                colNum[move-1] += 1
+                if colNum[move-1] == numOfCol {
                     break
                 }
             }
-            colNum[move-1] = n
         }
         if board[colNum[move-1]][move-1] == pickedDolls.last {
-            pickedDolls.removeLast()
+            pickedDolls.removeLast(1)
             deletedDolls += 2
         } else {
             pickedDolls.append(board[colNum[move-1]][move-1])
@@ -40,5 +36,4 @@ func solution2_1(_ board:[[Int]], _ moves:[Int]) -> Int {
     }
     return deletedDolls
 }
-
 
