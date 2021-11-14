@@ -52,3 +52,17 @@ func solution4_2(_ answers:[Int]) -> [Int] {
     return ranking
 }
 
+// 다른 사람 풀이 확인 후 보완한 코드
+func solution4_3(_ answers:[Int]) -> [Int] {
+    let patterns = [[1,2,3,4,5],[2,1,2,3,2,4,2,5],[3,3,1,1,2,2,4,4,5,5]]
+    var scores = [0,0,0]
+    
+    for (AI, answer) in answers.enumerated() {
+        for (PI, pattern) in patterns.enumerated() {
+            if answer == pattern[AI % pattern.count] { scores[PI] += 1 }
+        }
+    }
+    
+    return scores.filter{ $0 == scores.max() }
+}
+
