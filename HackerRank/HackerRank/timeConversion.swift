@@ -21,3 +21,17 @@ func timeConversion(s: String) -> String {
     }
     return time
 }
+
+
+// time format 사용하여 convert
+func timeConversion2(s: String) -> String {
+    let inFormatter = DateFormatter()
+    inFormatter.dateFormat = "hh:mm:ssa"
+
+
+    let outFormatter = DateFormatter()
+    outFormatter.dateFormat = "HH:mm:ss"
+
+    let date = inFormatter.date(from: s)!
+    return outFormatter.string(from: date)
+}
