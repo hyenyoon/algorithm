@@ -9,5 +9,3 @@ import Foundation
 
 //sumTwoNumbers()
 
-var a = 38 % 5
-print (a)
