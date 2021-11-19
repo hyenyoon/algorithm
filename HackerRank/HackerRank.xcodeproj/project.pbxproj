@@ -73,9 +73,9 @@
 				58CAAC3327477833006AC045 /* SolveMeFirst.swift */,
 				58CAAC3727477FEE006AC045 /* gradingStudents.swift */,
 				58CAAC3927478617006AC045 /* compareTriplets.swift */,
+				58CAAC3B27478838006AC045 /* aVeryBigSum.swift */,
 				58CAAC3D27478A7B006AC045 /* timeConversion.swift */,
 				58CAAC3F2747A7A7006AC045 /* kangaroo.swift */,
-				58CAAC3B27478838006AC045 /* aVeryBigSum.swift */,
 			);
 			path = HackerRank;
 			sourceTree = "<group>";
