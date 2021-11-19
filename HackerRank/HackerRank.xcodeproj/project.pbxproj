@@ -11,6 +11,7 @@
 		58CAAC3427477833006AC045 /* SolveMeFirst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CAAC3327477833006AC045 /* SolveMeFirst.swift */; };
 		58CAAC3827477FEE006AC045 /* gradingStudents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CAAC3727477FEE006AC045 /* gradingStudents.swift */; };
 		58CAAC3A27478617006AC045 /* compareTriplets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CAAC3927478617006AC045 /* compareTriplets.swift */; };
+		58CAAC3C27478838006AC045 /* aVeryBigSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CAAC3B27478838006AC045 /* aVeryBigSum.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,7 @@
 		58CAAC3327477833006AC045 /* SolveMeFirst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolveMeFirst.swift; sourceTree = "<group>"; };
 		58CAAC3727477FEE006AC045 /* gradingStudents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gradingStudents.swift; sourceTree = "<group>"; };
 		58CAAC3927478617006AC045 /* compareTriplets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = compareTriplets.swift; sourceTree = "<group>"; };
+		58CAAC3B27478838006AC045 /* aVeryBigSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aVeryBigSum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				58CAAC3327477833006AC045 /* SolveMeFirst.swift */,
 				58CAAC3727477FEE006AC045 /* gradingStudents.swift */,
 				58CAAC3927478617006AC045 /* compareTriplets.swift */,
+				58CAAC3B27478838006AC045 /* aVeryBigSum.swift */,
 			);
 			path = HackerRank;
 			sourceTree = "<group>";
@@ -131,6 +134,7 @@
 			files = (
 				58CAAC3427477833006AC045 /* SolveMeFirst.swift in Sources */,
 				58CAAC3827477FEE006AC045 /* gradingStudents.swift in Sources */,
+				58CAAC3C27478838006AC045 /* aVeryBigSum.swift in Sources */,
 				58CAAC3A27478617006AC045 /* compareTriplets.swift in Sources */,
 				58CAAC2D274762AB006AC045 /* main.swift in Sources */,
 			);
