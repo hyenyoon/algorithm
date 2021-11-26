@@ -7,11 +7,6 @@
 
 import Foundation
 
-/*
- 1. symbol value swith
- 2. i인데 v나 x
- */
-
 
 func romanToInt(_ s: String) -> Int {
     let dic: [Character : Int] = [
