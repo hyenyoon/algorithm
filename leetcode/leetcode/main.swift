@@ -12,3 +12,5 @@ import Foundation
 
 
 print(longestCommonPrefix(["",""]))
+
+

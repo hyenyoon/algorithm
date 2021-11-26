@@ -10,6 +10,7 @@
 		585E23A027508099009882A1 /* 9. isPalindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585E239F27508099009882A1 /* 9. isPalindrome.swift */; };
 		585E23A22750814B009882A1 /* 13. Roman to Integer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585E23A12750814B009882A1 /* 13. Roman to Integer.swift */; };
 		585E23A42750942F009882A1 /* 14. Longest Common Prefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585E23A32750942F009882A1 /* 14. Longest Common Prefix.swift */; };
+		585E23A62750A30B009882A1 /* 21. Merge Two Sorted Lists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585E23A52750A30B009882A1 /* 21. Merge Two Sorted Lists.swift */; };
 		58F8B2AE27506BF400D868F6 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F8B2AD27506BF400D868F6 /* main.swift */; };
 		58F8B2B52750732400D868F6 /* 1. TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F8B2B42750732400D868F6 /* 1. TwoSum.swift */; };
 		58F8B2B72750774A00D868F6 /* 7. Reverse Integer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F8B2B62750774A00D868F6 /* 7. Reverse Integer.swift */; };
@@ -31,6 +32,7 @@
 		585E239F27508099009882A1 /* 9. isPalindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "9. isPalindrome.swift"; sourceTree = "<group>"; };
 		585E23A12750814B009882A1 /* 13. Roman to Integer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "13. Roman to Integer.swift"; sourceTree = "<group>"; };
 		585E23A32750942F009882A1 /* 14. Longest Common Prefix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "14. Longest Common Prefix.swift"; sourceTree = "<group>"; };
+		585E23A52750A30B009882A1 /* 21. Merge Two Sorted Lists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "21. Merge Two Sorted Lists.swift"; sourceTree = "<group>"; };
 		58F8B2AA27506BF400D868F6 /* leetcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcode; sourceTree = BUILT_PRODUCTS_DIR; };
 		58F8B2AD27506BF400D868F6 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		58F8B2B42750732400D868F6 /* 1. TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1. TwoSum.swift"; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 				585E239F27508099009882A1 /* 9. isPalindrome.swift */,
 				585E23A12750814B009882A1 /* 13. Roman to Integer.swift */,
 				585E23A32750942F009882A1 /* 14. Longest Common Prefix.swift */,
+				585E23A52750A30B009882A1 /* 21. Merge Two Sorted Lists.swift */,
 			);
 			path = leetcode;
 			sourceTree = "<group>";
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				585E23A22750814B009882A1 /* 13. Roman to Integer.swift in Sources */,
+				585E23A62750A30B009882A1 /* 21. Merge Two Sorted Lists.swift in Sources */,
 				58F8B2B52750732400D868F6 /* 1. TwoSum.swift in Sources */,
 				585E23A42750942F009882A1 /* 14. Longest Common Prefix.swift in Sources */,
 				58F8B2AE27506BF400D868F6 /* main.swift in Sources */,
