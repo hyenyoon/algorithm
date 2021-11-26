@@ -7,5 +7,7 @@
 
 import Foundation
 
-print("Hello, World!")
 
+print(reverse(1534236469))
+
+print(Int32.max)

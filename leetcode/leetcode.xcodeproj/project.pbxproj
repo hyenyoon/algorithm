@@ -8,7 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		58F8B2AE27506BF400D868F6 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F8B2AD27506BF400D868F6 /* main.swift */; };
-		58F8B2B52750732400D868F6 /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F8B2B42750732400D868F6 /* TwoSum.swift */; };
+		58F8B2B52750732400D868F6 /* 1. TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F8B2B42750732400D868F6 /* 1. TwoSum.swift */; };
+		58F8B2B72750774A00D868F6 /* 7. Reverse Integer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F8B2B62750774A00D868F6 /* 7. Reverse Integer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,7 +27,8 @@
 /* Begin PBXFileReference section */
 		58F8B2AA27506BF400D868F6 /* leetcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcode; sourceTree = BUILT_PRODUCTS_DIR; };
 		58F8B2AD27506BF400D868F6 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		58F8B2B42750732400D868F6 /* TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
+		58F8B2B42750732400D868F6 /* 1. TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1. TwoSum.swift"; sourceTree = "<group>"; };
+		58F8B2B62750774A00D868F6 /* 7. Reverse Integer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "7. Reverse Integer.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +62,8 @@
 			isa = PBXGroup;
 			children = (
 				58F8B2AD27506BF400D868F6 /* main.swift */,
-				58F8B2B42750732400D868F6 /* TwoSum.swift */,
+				58F8B2B42750732400D868F6 /* 1. TwoSum.swift */,
+				58F8B2B62750774A00D868F6 /* 7. Reverse Integer.swift */,
 			);
 			path = leetcode;
 			sourceTree = "<group>";
@@ -123,8 +126,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58F8B2B52750732400D868F6 /* TwoSum.swift in Sources */,
+				58F8B2B52750732400D868F6 /* 1. TwoSum.swift in Sources */,
 				58F8B2AE27506BF400D868F6 /* main.swift in Sources */,
+				58F8B2B72750774A00D868F6 /* 7. Reverse Integer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
