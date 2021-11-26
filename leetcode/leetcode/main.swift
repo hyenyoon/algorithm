@@ -8,6 +8,4 @@
 import Foundation
 
 
-print(reverse(1534236469))
-
-print(Int32.max)
+print(romanToInt("IX"))
