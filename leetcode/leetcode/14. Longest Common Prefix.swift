@@ -11,11 +11,11 @@ import Foundation
  2. 중복 접두어가 없으면 공문자열 리턴
  */
 
-func longestCommonPrefix(_ strs: [String]) -> String {
+// ver1
+func longestCommonPrefix1(_ strs: [String]) -> String {
     if strs.count == 1 {
         return strs[0]
     }
-    
     func findPrefix(_ str1: String, _ str2: String) -> String {
         if str1 == "" || str2 == "" {
             return ""
@@ -41,4 +41,15 @@ func longestCommonPrefix(_ strs: [String]) -> String {
     }
     
     return result
+}
+
+// ver2
+func longestCommonPrefix(_ strs: [String]) -> String {
+    var commonPrefix = strs[0]
+    strs.forEach {
+        while !$0.hasPrefix(commonPrefix) {
+            commonPrefix.removeLast()
+        }
+    }
+    return commonPrefix
 }
