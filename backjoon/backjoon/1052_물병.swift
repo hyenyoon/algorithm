@@ -46,19 +46,19 @@ func p1052_2() {
 }
 
 func p1052_3() {
-    func pour(_ n: Int, _ count: Int, _ waterToBuy: Int) -> Int {
-        if n <= k { return waterToBuy }
-        let isOdd = n % 2 == 1
-        let necessaryWater = isOdd ? count : 0
-        let nextWater = isOdd ? (n + 1) / 2 : n / 2
-        print(n, count, waterToBuy)
-        return pour(nextWater, count * 2, waterToBuy + necessaryWater)
+    
+    func countOne(_ num: Int, _ count: Int) -> Int {
+        num == 0 ? count : countOne(num & (num - 1), count + 1)
     }
-
-    let input = readLine()!
-        .split(separator: " ")
-        .map { Int($0)! }
+    
+    func needToBuy(_ bottle: Int, _ acc: Int) -> Int {
+        if countOne(bottle, 0) <= k { return acc }
+        let increment = bottle & -bottle
+        return needToBuy(bottle + increment, acc + increment)
+    }
+    
+    let input = readLine()!.split(separator: " ").map { Int($0)! }
     let (n, k) = (input[0], input[1])
-
-    print(pour(n, 1, 0))
+    print(needToBuy(n, 0))
+    
 }
