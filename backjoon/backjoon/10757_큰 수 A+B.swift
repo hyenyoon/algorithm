@@ -2,7 +2,7 @@
 
 import Foundation
 
-func p1057_1() {
+func p10757_1() {
     let input = readLine()!.split(separator: " ").map { Array(String($0).reversed()).map { $0.wholeNumberValue! } }
     let maxC = max(input[0].count, input[1].count)
     let a = input[0] + Array(repeating: 0, count: maxC - input[0].count)
@@ -16,7 +16,7 @@ func p1057_1() {
 }
 
 // timeOver
-func p1057_2() {
+func p10757_2() {
     let input = readLine()!.split(separator: " ")
     let a = input[0]
     let b = input[1]
@@ -32,7 +32,7 @@ func p1057_2() {
 }
 
 // tiemOver
-func p1057_3() {
+func p10757_3() {
     let input = readLine()!.split(separator: " ").map { String($0) }
     let a = input[0]
     let b = input[1]
@@ -48,7 +48,7 @@ func p1057_3() {
 }
 
 // 64ms
-func p1057_4() {
+func p10757_4() {
     let input = readLine()!.split(separator: " ").map { Array(String($0).reversed()).map { $0.wholeNumberValue! } }
     let maxC = max(input[0].count, input[1].count)
     let a = input[0] + Array(repeating: 0, count: maxC - input[0].count)
