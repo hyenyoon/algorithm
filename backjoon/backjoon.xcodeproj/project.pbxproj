@@ -11,6 +11,7 @@
 		580D1E4027852B5300CB9D02 /* 1000_A+B.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580D1E3F27852B5300CB9D02 /* 1000_A+B.swift */; };
 		580D1E4227855E8100CB9D02 /* 1076_저항.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580D1E4127855E8100CB9D02 /* 1076_저항.swift */; };
 		580D1E442785722D00CB9D02 /* 1009_분산처리.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580D1E432785722D00CB9D02 /* 1009_분산처리.swift */; };
+		580D1E46278572A700CB9D02 /* 1052_물병.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580D1E45278572A700CB9D02 /* 1052_물병.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,7 @@
 		580D1E3F27852B5300CB9D02 /* 1000_A+B.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1000_A+B.swift"; sourceTree = "<group>"; };
 		580D1E4127855E8100CB9D02 /* 1076_저항.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1076_저항.swift"; sourceTree = "<group>"; };
 		580D1E432785722D00CB9D02 /* 1009_분산처리.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1009_분산처리.swift"; sourceTree = "<group>"; };
+		580D1E45278572A700CB9D02 /* 1052_물병.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1052_물병.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				580D1E3F27852B5300CB9D02 /* 1000_A+B.swift */,
 				580D1E432785722D00CB9D02 /* 1009_분산처리.swift */,
 				580D1E4127855E8100CB9D02 /* 1076_저항.swift */,
+				580D1E45278572A700CB9D02 /* 1052_물병.swift */,
 			);
 			path = backjoon;
 			sourceTree = "<group>";
@@ -130,6 +133,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				580D1E3927852B3800CB9D02 /* main.swift in Sources */,
+				580D1E46278572A700CB9D02 /* 1052_물병.swift in Sources */,
 				580D1E4227855E8100CB9D02 /* 1076_저항.swift in Sources */,
 				580D1E4027852B5300CB9D02 /* 1000_A+B.swift in Sources */,
 				580D1E442785722D00CB9D02 /* 1009_분산처리.swift in Sources */,
