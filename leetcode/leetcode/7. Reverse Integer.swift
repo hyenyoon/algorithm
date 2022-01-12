@@ -23,3 +23,10 @@ func reverse(_ x: Int) -> Int {
         return x < 0 ? -Int(result)! : Int(result)!
     }
 }
+
+func reverse2(_ x: Int) -> Int {
+    let str = x < 0 ? String(String(x).dropFirst()) : String(x)
+    let result = Int(String(str.reversed()))!
+    return result >= Int32.min && result <= Int32.max ? x < 0 ? -(result) : result : 0
+}
+
