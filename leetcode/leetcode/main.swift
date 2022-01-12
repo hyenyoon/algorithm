@@ -24,4 +24,12 @@ import Foundation
 //
 //mergeTwoLists(a_1, b_1)
 
+let head: ListNode? = ListNode(1, ListNode(1, ListNode(2)))
 
+var node = head
+while let temp = node {
+    print(temp.val)
+    node = temp.next
+}
+
+deleteDuplicates(head)
