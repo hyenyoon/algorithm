@@ -1,9 +1,3 @@
-//
-//  7. Reverse Integer.swift
-//  leetcode
-//
-//  Created by Hyenyoon Jung on 2021/11/26.
-//
 
 import Foundation
 
