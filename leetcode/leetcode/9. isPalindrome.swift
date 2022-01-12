@@ -16,3 +16,9 @@ func isPalindrome(_ x: Int) -> Bool {
     
     return String(x) == reversed
 }
+
+
+func isPalindrome2(_ x: Int) -> Bool {
+    String(x) == String(String(x).reversed())
+}
+
