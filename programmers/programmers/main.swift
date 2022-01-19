@@ -8,7 +8,11 @@ import Foundation
 //
 //let answers = [1, 2, 3, 4, 5]
 //print(mockExam(answers))
-
-let s = "abcde "
-print(makeWeirdString2(s))
-print(makeWeirdString2(s).count)
+//
+//let s = "abcde "
+//print(makeWeirdString2(s))
+//makeWeirdString2(s).forEach{ print("(\($0))") }
+//
+let arr = [1, 5, 2, 6, 3, 7, 4]
+let commands = [[2, 5, 3], [4, 4, 1], [1, 7, 3]]
+print(kthNumber2(arr, commands))

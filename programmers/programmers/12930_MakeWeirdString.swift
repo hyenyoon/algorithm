@@ -16,7 +16,7 @@ func makeWeirdString1(_ s:String) -> String {
 }
 
 func makeWeirdString2(_ s:String) -> String {
-    s.components(separatedBy: " ")
+    s.split(separator: " ", omittingEmptySubsequences: false)
         .map { $0.enumerated().map { $0.offset % 2 == 0 ? $0.element.uppercased() : $0.element.lowercased() }.joined() }
         .joined(separator: " ")
 }
