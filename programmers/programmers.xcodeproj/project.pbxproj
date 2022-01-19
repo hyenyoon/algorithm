@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		58F41A4727979CB400AEAB3E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F41A4627979CB400AEAB3E /* main.swift */; };
 		58F41A4E2797A32F00AEAB3E /* 64061_ClawMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F41A4D2797A32F00AEAB3E /* 64061_ClawMachine.swift */; };
+		58F41A502797BF9500AEAB3E /* 42840_MockExam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F41A4F2797BF9500AEAB3E /* 42840_MockExam.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +28,7 @@
 		58F41A4327979CB400AEAB3E /* programmers */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = programmers; sourceTree = BUILT_PRODUCTS_DIR; };
 		58F41A4627979CB400AEAB3E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		58F41A4D2797A32F00AEAB3E /* 64061_ClawMachine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 64061_ClawMachine.swift; sourceTree = "<group>"; };
+		58F41A4F2797BF9500AEAB3E /* 42840_MockExam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 42840_MockExam.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			children = (
 				58F41A4627979CB400AEAB3E /* main.swift */,
 				58F41A4D2797A32F00AEAB3E /* 64061_ClawMachine.swift */,
+				58F41A4F2797BF9500AEAB3E /* 42840_MockExam.swift */,
 			);
 			path = programmers;
 			sourceTree = "<group>";
@@ -124,6 +127,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				58F41A4E2797A32F00AEAB3E /* 64061_ClawMachine.swift in Sources */,
+				58F41A502797BF9500AEAB3E /* 42840_MockExam.swift in Sources */,
 				58F41A4727979CB400AEAB3E /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

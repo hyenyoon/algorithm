@@ -34,6 +34,6 @@ func clawMachine(_ board:[[Int]], _ moves:[Int]) -> Int {
         movesIndex += 1
         rowIndexArr[moves] = i + 1
     }
-    print(bracket)
+    
     return explodedDoll
 }
