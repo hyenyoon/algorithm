@@ -53,3 +53,32 @@ func longestCommonPrefix(_ strs: [String]) -> String {
     }
     return commonPrefix
 }
+
+// O(N^2)
+func longestCommonPrefix3(_ strs: [String]) -> String {
+    var prefix = strs[0]
+    var i = 1
+    
+    while i < strs.count && !prefix.isEmpty {
+        while !strs[i].hasPrefix(prefix) { prefix.removeLast() }
+        i += 1
+    }
+    
+    return prefix
+}
+
+// O(N)
+func longestCommonPrefix4(_ strs: [String]) -> String {
+  let sorted = strs.sorted()
+    var result = ""
+    
+    for (charOfFirstWord, charOfLastWord) in zip(sorted.first!, sorted.last!) {
+        if charOfFirstWord == charOfLastWord {
+            result += String(charOfFirstWord)
+        } else {
+            break
+        }
+    }
+    
+    return result
+}

@@ -7,19 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		585E23A027508099009882A1 /* 9. isPalindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585E239F27508099009882A1 /* 9. isPalindrome.swift */; };
-		585E23A22750814B009882A1 /* 13. Roman to Integer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585E23A12750814B009882A1 /* 13. Roman to Integer.swift */; };
-		585E23A42750942F009882A1 /* 14. Longest Common Prefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585E23A32750942F009882A1 /* 14. Longest Common Prefix.swift */; };
-		585E23A62750A30B009882A1 /* 21. Merge Two Sorted Lists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585E23A52750A30B009882A1 /* 21. Merge Two Sorted Lists.swift */; };
-		58BDB239278E9D5D00336047 /* 83. RemoveDuplicatesFromSortedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BDB238278E9D5D00336047 /* 83. RemoveDuplicatesFromSortedList.swift */; };
-		58BDB23B278ECD4700336047 /* 141. Linked List Cycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BDB23A278ECD4700336047 /* 141. Linked List Cycle.swift */; };
-		58F8B2AE27506BF400D868F6 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F8B2AD27506BF400D868F6 /* main.swift */; };
-		58F8B2B52750732400D868F6 /* 1. TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F8B2B42750732400D868F6 /* 1. TwoSum.swift */; };
-		58F8B2B72750774A00D868F6 /* 7. Reverse Integer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F8B2B62750774A00D868F6 /* 7. Reverse Integer.swift */; };
+		58F41A4727979CB400AEAB3E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F41A4627979CB400AEAB3E /* main.swift */; };
+		58F41A4E2797A32F00AEAB3E /* 64061_ClawMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F41A4D2797A32F00AEAB3E /* 64061_ClawMachine.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		58F8B2A827506BF400D868F6 /* CopyFiles */ = {
+		58F41A4127979CB400AEAB3E /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -31,20 +24,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		585E239F27508099009882A1 /* 9. isPalindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "9. isPalindrome.swift"; sourceTree = "<group>"; };
-		585E23A12750814B009882A1 /* 13. Roman to Integer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "13. Roman to Integer.swift"; sourceTree = "<group>"; };
-		585E23A32750942F009882A1 /* 14. Longest Common Prefix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "14. Longest Common Prefix.swift"; sourceTree = "<group>"; };
-		585E23A52750A30B009882A1 /* 21. Merge Two Sorted Lists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "21. Merge Two Sorted Lists.swift"; sourceTree = "<group>"; };
-		58BDB238278E9D5D00336047 /* 83. RemoveDuplicatesFromSortedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "83. RemoveDuplicatesFromSortedList.swift"; sourceTree = "<group>"; };
-		58BDB23A278ECD4700336047 /* 141. Linked List Cycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "141. Linked List Cycle.swift"; sourceTree = "<group>"; };
-		58F8B2AA27506BF400D868F6 /* leetcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcode; sourceTree = BUILT_PRODUCTS_DIR; };
-		58F8B2AD27506BF400D868F6 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		58F8B2B42750732400D868F6 /* 1. TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1. TwoSum.swift"; sourceTree = "<group>"; };
-		58F8B2B62750774A00D868F6 /* 7. Reverse Integer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "7. Reverse Integer.swift"; sourceTree = "<group>"; };
+		58F41A4327979CB400AEAB3E /* programmers */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = programmers; sourceTree = BUILT_PRODUCTS_DIR; };
+		58F41A4627979CB400AEAB3E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		58F41A4D2797A32F00AEAB3E /* 64061_ClawMachine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 64061_ClawMachine.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		58F8B2A727506BF400D868F6 /* Frameworks */ = {
+		58F41A4027979CB400AEAB3E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -54,74 +40,67 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		58F8B2A127506BF400D868F6 = {
+		58F41A3A27979CB400AEAB3E = {
 			isa = PBXGroup;
 			children = (
-				58F8B2AC27506BF400D868F6 /* leetcode */,
-				58F8B2AB27506BF400D868F6 /* Products */,
+				58F41A4527979CB400AEAB3E /* programmers */,
+				58F41A4427979CB400AEAB3E /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		58F8B2AB27506BF400D868F6 /* Products */ = {
+		58F41A4427979CB400AEAB3E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				58F8B2AA27506BF400D868F6 /* leetcode */,
+				58F41A4327979CB400AEAB3E /* programmers */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		58F8B2AC27506BF400D868F6 /* leetcode */ = {
+		58F41A4527979CB400AEAB3E /* programmers */ = {
 			isa = PBXGroup;
 			children = (
-				58F8B2AD27506BF400D868F6 /* main.swift */,
-				58F8B2B42750732400D868F6 /* 1. TwoSum.swift */,
-				58F8B2B62750774A00D868F6 /* 7. Reverse Integer.swift */,
-				585E239F27508099009882A1 /* 9. isPalindrome.swift */,
-				585E23A12750814B009882A1 /* 13. Roman to Integer.swift */,
-				585E23A32750942F009882A1 /* 14. Longest Common Prefix.swift */,
-				585E23A52750A30B009882A1 /* 21. Merge Two Sorted Lists.swift */,
-				58BDB238278E9D5D00336047 /* 83. RemoveDuplicatesFromSortedList.swift */,
-				58BDB23A278ECD4700336047 /* 141. Linked List Cycle.swift */,
+				58F41A4627979CB400AEAB3E /* main.swift */,
+				58F41A4D2797A32F00AEAB3E /* 64061_ClawMachine.swift */,
 			);
-			path = leetcode;
+			path = programmers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		58F8B2A927506BF400D868F6 /* leetcode */ = {
+		58F41A4227979CB400AEAB3E /* programmers */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 58F8B2B127506BF400D868F6 /* Build configuration list for PBXNativeTarget "leetcode" */;
+			buildConfigurationList = 58F41A4A27979CB400AEAB3E /* Build configuration list for PBXNativeTarget "programmers" */;
 			buildPhases = (
-				58F8B2A627506BF400D868F6 /* Sources */,
-				58F8B2A727506BF400D868F6 /* Frameworks */,
-				58F8B2A827506BF400D868F6 /* CopyFiles */,
+				58F41A3F27979CB400AEAB3E /* Sources */,
+				58F41A4027979CB400AEAB3E /* Frameworks */,
+				58F41A4127979CB400AEAB3E /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = leetcode;
-			productName = leetcode;
-			productReference = 58F8B2AA27506BF400D868F6 /* leetcode */;
+			name = programmers;
+			productName = programmers;
+			productReference = 58F41A4327979CB400AEAB3E /* programmers */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		58F8B2A227506BF400D868F6 /* Project object */ = {
+		58F41A3B27979CB400AEAB3E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1310;
-				LastUpgradeCheck = 1310;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
 				TargetAttributes = {
-					58F8B2A927506BF400D868F6 = {
-						CreatedOnToolsVersion = 13.1;
+					58F41A4227979CB400AEAB3E = {
+						CreatedOnToolsVersion = 13.2.1;
 					};
 				};
 			};
-			buildConfigurationList = 58F8B2A527506BF400D868F6 /* Build configuration list for PBXProject "leetcode" */;
+			buildConfigurationList = 58F41A3E27979CB400AEAB3E /* Build configuration list for PBXProject "programmers" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -129,37 +108,30 @@
 				en,
 				Base,
 			);
-			mainGroup = 58F8B2A127506BF400D868F6;
-			productRefGroup = 58F8B2AB27506BF400D868F6 /* Products */;
+			mainGroup = 58F41A3A27979CB400AEAB3E;
+			productRefGroup = 58F41A4427979CB400AEAB3E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				58F8B2A927506BF400D868F6 /* leetcode */,
+				58F41A4227979CB400AEAB3E /* programmers */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		58F8B2A627506BF400D868F6 /* Sources */ = {
+		58F41A3F27979CB400AEAB3E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				585E23A22750814B009882A1 /* 13. Roman to Integer.swift in Sources */,
-				58BDB239278E9D5D00336047 /* 83. RemoveDuplicatesFromSortedList.swift in Sources */,
-				585E23A62750A30B009882A1 /* 21. Merge Two Sorted Lists.swift in Sources */,
-				58F8B2B52750732400D868F6 /* 1. TwoSum.swift in Sources */,
-				585E23A42750942F009882A1 /* 14. Longest Common Prefix.swift in Sources */,
-				58BDB23B278ECD4700336047 /* 141. Linked List Cycle.swift in Sources */,
-				58F8B2AE27506BF400D868F6 /* main.swift in Sources */,
-				585E23A027508099009882A1 /* 9. isPalindrome.swift in Sources */,
-				58F8B2B72750774A00D868F6 /* 7. Reverse Integer.swift in Sources */,
+				58F41A4E2797A32F00AEAB3E /* 64061_ClawMachine.swift in Sources */,
+				58F41A4727979CB400AEAB3E /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		58F8B2AF27506BF400D868F6 /* Debug */ = {
+		58F41A4827979CB400AEAB3E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -210,7 +182,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -220,7 +192,7 @@
 			};
 			name = Debug;
 		};
-		58F8B2B027506BF400D868F6 /* Release */ = {
+		58F41A4927979CB400AEAB3E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -265,7 +237,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
@@ -274,7 +246,7 @@
 			};
 			name = Release;
 		};
-		58F8B2B227506BF400D868F6 /* Debug */ = {
+		58F41A4B27979CB400AEAB3E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -285,7 +257,7 @@
 			};
 			name = Debug;
 		};
-		58F8B2B327506BF400D868F6 /* Release */ = {
+		58F41A4C27979CB400AEAB3E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -299,25 +271,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		58F8B2A527506BF400D868F6 /* Build configuration list for PBXProject "leetcode" */ = {
+		58F41A3E27979CB400AEAB3E /* Build configuration list for PBXProject "programmers" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				58F8B2AF27506BF400D868F6 /* Debug */,
-				58F8B2B027506BF400D868F6 /* Release */,
+				58F41A4827979CB400AEAB3E /* Debug */,
+				58F41A4927979CB400AEAB3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		58F8B2B127506BF400D868F6 /* Build configuration list for PBXNativeTarget "leetcode" */ = {
+		58F41A4A27979CB400AEAB3E /* Build configuration list for PBXNativeTarget "programmers" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				58F8B2B227506BF400D868F6 /* Debug */,
-				58F8B2B327506BF400D868F6 /* Release */,
+				58F41A4B27979CB400AEAB3E /* Debug */,
+				58F41A4C27979CB400AEAB3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 58F8B2A227506BF400D868F6 /* Project object */;
+	rootObject = 58F41A3B27979CB400AEAB3E /* Project object */;
 }
